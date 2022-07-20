@@ -1,0 +1,10 @@
+.input__default {
+    height: 38px;
+    border: none;
+    border: rgba($color: $blue-gray, $alpha: 0.3)  1px solid;
+    border-radius: 20px;
+    outline: none;
+    background-color: lighten($color: $light-blue, $amount: 10) ;
+    padding-left: 16px;
+    padding-right: 16px;
+}

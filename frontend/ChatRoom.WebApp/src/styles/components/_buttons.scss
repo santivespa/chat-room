@@ -1,0 +1,45 @@
+
+
+.btn-dark-red {
+    background-color: $dark-red;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 20px;
+    height: 38px;
+    padding: 0px;
+}
+
+
+
+.btn-rounded {
+    border-radius: 50%;
+    height: 38px;
+    width: 38px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-send {
+    border: none;
+    margin-left: 8px;
+
+    &:hover {
+        background-color: lighten($color: $blue-gray, $amount: 20);
+    }
+  
+}
+
+
+
+.btn-logout  {
+    border: none;
+
+
+    &:hover {
+        background-color: lighten($color: $blue-gray, $amount: 30);
+    }
+  
+}

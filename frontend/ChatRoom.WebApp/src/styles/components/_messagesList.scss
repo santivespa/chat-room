@@ -1,0 +1,52 @@
+.messagesList__container {
+    overflow-y: auto;
+    position: absolute;
+    top: 48px;
+    left: 16px;
+    right: 0;
+    bottom: 54px;
+}
+
+.messagesList__item {
+
+    cursor: pointer;
+    padding: 4px 8px;
+    width: auto;
+
+    line-height: 20px;
+
+}
+.messageList-item-container {
+    margin-bottom: 16px;
+}
+
+.messageList-item-container:nth-last-child(2) {
+    margin-bottom: 0px;
+}
+
+
+.custom-scrollbar {
+    padding-right: 6px;
+}
+
+/* width */
+.custom-scrollbar::-webkit-scrollbar {
+    width: 6px;
+    cursor: pointer;
+}
+
+/* Track */
+.custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background: rgba($color: #000000, $alpha: 0.2);
+    border-radius: 16px;
+}
+
+/* Handle on hover */
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgba($color: #000000, $alpha: 0.4);
+}
