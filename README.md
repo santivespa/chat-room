@@ -1,5 +1,5 @@
 # Chat Room
-A realtime chat room
+A real-time chat room
 
 ## Technologies
 
@@ -10,7 +10,7 @@ Frontend: React 18.<br />
 
 #### Backend: 
 Configure your client url in the appsettings.json for the ChatRoom project cors. <br />
-Run ChatRoom project running
+Run ChatRoom project.
 
 #### Frontend: 
 Run ``` npm install ``` to install the dependencies and then run ``` npm start ``` to start the app.
